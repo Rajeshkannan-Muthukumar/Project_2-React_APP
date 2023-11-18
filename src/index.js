@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Product from './pages/Product';
-import Lunchpage from './pages/Lunchpage';
 import Breakfast from './pages/Breakfast';
 import Breakfast1 from './pages/breakfast1';
 import Breakfast2 from './pages/Breakfast2';
 import Breakfast3 from './pages/Breakfast3';
+import Lunchpage from './pages/Lunchpage';
+import Lunch1 from './pages/Lunch1';
+import Lunch2 from './pages/Lunch2';
+import Lunch3 from './pages/Lunch3';
 import { ThemeProvider } from './hook/hookcooking';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -46,6 +49,16 @@ const router = createBrowserRouter([
   },{
     path:"breakfast3",
     element:<Breakfast3/>
+  },
+  {
+    path:"/lunch1",
+    element:<Lunch1/>
+  },{
+    path:"lunch2",
+    element:<Lunch2/>
+  },{
+    path:"lunch3",
+    element:<Lunch3/>
   }
 ])
 

@@ -1,24 +1,29 @@
 export const breakfastdata = [
 {
 head:"Breakfasts",
-img:"https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180821150600/Indian-Breakfast.jpg"
+img:"https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180821150600/Indian-Breakfast.jpg",
+link : "/breakfast"
 }
 ,
 {
     head:"Lunch",
-    img:"https://res.cloudinary.com/dm6wjacnw/image/upload/v1697711825/mdp98dwized7jwvd8qcs.png"
+    img:"https://res.cloudinary.com/dm6wjacnw/image/upload/v1697711825/mdp98dwized7jwvd8qcs.png",
+    link : "/Lunchpage"
     },
     {
         head:"Snacks",
-        img:"https://res.cloudinary.com/dm6wjacnw/image/upload/v1697712175/wptrmynpy7lmvfhbcl8t.png"
+        img:"https://res.cloudinary.com/dm6wjacnw/image/upload/v1697712175/wptrmynpy7lmvfhbcl8t.png",
+        link : "/Lunchpage"
         },
         {
             head:"Drinks",
-            img:"https://res.cloudinary.com/dm6wjacnw/image/upload/v1697712418/yx6pwvti5dhpzgvx5yzz.png"
+            img:"https://res.cloudinary.com/dm6wjacnw/image/upload/v1697712418/yx6pwvti5dhpzgvx5yzz.png",
+            link : "/Lunchpage"
             }
 ,{
     head:"Dinner",
-    img:"https://res.cloudinary.com/dm6wjacnw/image/upload/v1697617855/samples/food/fish-vegetables.jpg"
+    img:"https://res.cloudinary.com/dm6wjacnw/image/upload/v1697617855/samples/food/fish-vegetables.jpg",
+    link : "/Lunchpage"
 },
 ]
 

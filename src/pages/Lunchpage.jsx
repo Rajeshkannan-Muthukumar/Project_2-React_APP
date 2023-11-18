@@ -37,8 +37,8 @@ function Lunchpage() {
                                         <div class="container marginnnn">
                                             <center>
                                             <div class="corosal-items-inside-inside" style={{backgroundImage:"url(https://t4.ftcdn.net/jpg/04/84/16/15/360_F_484161575_DqXirPHQBwcG9ry9OKHTpxrydj0f5cLY.jpg)"}}>
-                                                <h1 class="item-heading">Idli</h1>
-                                                <a href="breakfast1"><button class="card-button">Let's Cook</button></a>
+                                                <h1 class="item-heading">Sambar</h1>
+                                                <a href="lunch1"><button class="card-button">Let's Cook</button></a>
                                             </div>
                                             </center>
                                         </div>
@@ -47,8 +47,8 @@ function Lunchpage() {
                                         <div class="container ">
                                             <center>
                                             <div class="corosal-items-inside-inside" style={{backgroundImage:"url(https://t4.ftcdn.net/jpg/04/18/22/71/360_F_418227121_mGoGy7ZE2jAkq07OnN599QU7PVuhVT57.jpg)"}}>
-                                                <h1 class="item-heading">Dosa</h1>
-                                                <a href="breakfast2"><button class="card-button">Let's Cook</button></a>
+                                                <h1 class="item-heading">Vegitable Biryani</h1>
+                                                <a href="lunch2"><button class="card-button">Let's Cook</button></a>
                                             </div>
                                             </center>
                                         </div>
@@ -57,8 +57,8 @@ function Lunchpage() {
                                         <div class="container marginnnn" >
                                             <center>
                                             <div class="corosal-items-inside-inside" style={{backgroundImage:"url(https://baymeatmarket.co.za/wp-content/uploads/2021/07/Mutton-curry.jpg)"}}>
-                                                <h1 class="item-heading">Poori</h1>
-                                                <a href="breakfast3"><button class="card-button">Let's Cook</button></a>
+                                                <h1 class="item-heading">Mutton Curry</h1>
+                                                <a href="lunch3"><button class="card-button">Let's Cook</button></a>
                                             </div>
                                             </center>
                                         </div>

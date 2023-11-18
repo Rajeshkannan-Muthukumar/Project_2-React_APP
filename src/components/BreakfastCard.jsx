@@ -2,7 +2,7 @@ import React from 'react'
 
 function BreakfastCard(data) {
 
-    const {head,img} = data.data;
+    const {head,img,link} = data.data;
 
   return (
 
@@ -10,7 +10,11 @@ function BreakfastCard(data) {
                         <div class="card1">
                             <img class="card-img" src={img}/>
                             <h1 class="card-heading">{head}</h1>
-                            <center><a href="breakfast"><button class="card-button">Enter</button></a></center>
+                            <center>
+                            <a href={link}><button class="card-button">Enter</button></a>
+                          
+                              
+                            </center>
                         </div>
                     </div>
 

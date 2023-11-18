@@ -40,6 +40,8 @@ function Home() {
                     return <BreakfastCard data={data}/>
                 })
               }
+                
+                   
                 </div>
             </div>
         </div>
