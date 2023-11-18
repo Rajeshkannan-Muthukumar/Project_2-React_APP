@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+
+
+.tabb {
+    background-color: white;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.division1 {
+    margin-right: 5.0rem;
+}
+
+.division2 {
+    margin-right: 5.0rem;
+    margin-left: 5.0rem;
+}
+
+.division3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 1.0rem;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+}
+
+.body {
+    background-color: cornsilk;
+    height: 90vh;
+}
+
+.main-heading {
+    color: #001a33;
+    font-weight: bold;
+}
+
+.inner {
+    color: #001a33 !important;
+
+    margin-left: 6rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+
+}
+
+.inner:hover {
+    font-weight: bold;
+}
+
+.pro-para {
+    background-color: transparent;
+    color: #001a33;
+    
+}
+
+.pro-para:hover {
+    background-image: url("https://res.cloudinary.com/dm6wjacnw/image/upload/c_scale,h_300,w_300/v1699468224/Cooking_Pal_nbhjfw.png");
+    color: transparent;
+    transition: background-color 1s ease-in-out;
+}
+
+
+
+/*.cards {
+   padding: 15px;
+}*/
+
+.card1 {
+    background-color: white;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 265px;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #001a33;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.card-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.breakfast-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.corousal-division1 {
+    margin: 20px;
+    height: 300px;
+}
+
+.breakfast-logo {
+    height: 200px;
+    width: 600px;
+}
+
+.card-img {
+    height: 150px;
+    width: 300px;
+}
+
+@media (min-width: 992px) {
+    .cooking-pal-heading {
+        display: none;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 6rem;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .cooking-pal-head {
+        display: none;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10rem !important;
+        
+    }
+}
+
+.card-heading-pal {
+    font-size: 30px;
+    font-weight: bold;
+    color: #001a33;
+    margin-left: 1em;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+.card-heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+
+.card-button {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 7px;
+    color: #001a33;
+    border-width: 0px;
+    font-weight: bold;
+    border-color: #001a33;
+    border-width: 1px;
+
+}
+
+.card-button:hover {
+    transition: background-color ease-in-out 1000ms;
+    height: 35px;
+    width: 105px;
+    background-color: #001a33;
+    border-radius: 7px;
+    color: white;
+    border-width: 0px;
+    font-weight: bold;
+    border-color: #001a33;
+    border-width: 1px;
+}
+
+
+
+
+
+
+.corosal-items-inside-inside{
+height: 40vh;
+width: 40vw;
+background-size: cover;
+padding: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 30px;
+border-radius: 10px;
+}
+
+.corosal-items-inside{
+    height: 70vh;
+    width: 75vw;
+    background-size: cover;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.item-heading {
+    color: white;
+    border-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+.marginnnn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.idlipage {
+    background-color: white;
+    background-size: cover;
+    height: 75vh;
+    width: 75vw;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.scroll {
+    max-height: 70vh;
+    /* Adjust the height as needed */
+    overflow-y: scroll;
+}
+
+
+     /*aboutus*/
+
+@media (max-width: 576px){
+.about-logo{
+    display: none;
+    border-radius: 12px;
+    
+}     
+}
+.about-logo{
+        border-radius: 12px;
+        height: 40vh !important;
+}     
+
+ /* products page  */
+
+
+
+  /* products page  */
+.inside-img{
+    height:23vh;
+    width:23vw;
+    border-radius: 10px;
+}
