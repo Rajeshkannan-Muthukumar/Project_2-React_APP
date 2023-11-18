@@ -28,7 +28,7 @@ function Lunch1() {
             </div>
         </nav>
         <center><h1 class="card-heading"><a href="lunchpage">Lunch</a> - Sambar</h1></center>
-        <div class="container idlipage">
+        <div class="container idlipage m-auto">
             <div class="row">
   <div class="col-4">
     <div id="list-example" class="list-group mt-5">

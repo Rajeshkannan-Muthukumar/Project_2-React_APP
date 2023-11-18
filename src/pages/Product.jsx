@@ -23,8 +23,13 @@ function Product() {
         const {name,price,image} = data;
         return <>
             
-            <h1>{name}</h1>
-            <img src={image} width="100px" />
+            <div class="d-flex flex-row mb-3">
+            <img src={image} class="cart-img" />
+            <div class="d-flex flex-column ml-3">
+            <h1 class="cart-head">{name}</h1>
+            <p class="cart-cost">₹ {price}</p>
+            </div>
+            </div>
             </>
     })
 }
@@ -48,22 +53,20 @@ function Product() {
                     <a class="inner " href="aboutuspage.html">About us<span class="sr-only">(current)</span></a>
                     <h1 class="inner card-heading cooking-pal-head">COOKING PAL</h1>
                     <a class="inner " href="contactuspage.html">Contact Us<span class="sr-only">(current)</span></a>
-                    <a class="inner " href="productspage.html">Products<span class="sr-only">(current)</span></a>
+                    <a class="inner " href="product"><u>Products</u><span class="sr-only">(current)</span></a>
                     <a class="inner " onClick={openCart}>
                         Cart 
+                        <span class="sr-only">(current)</span></a>
                         <header>
             <div class="shopping">
                 {/* <img src="image/shopping.svg"/> */}
                 <span class="quantity">{count}</span>
             </div>
-        </header>
-                        <span class="sr-only">(current)</span></a>
+                        </header>
                 </div>
             </div>
         </nav>
     <div class="container">
-        
-
         <div class="list">  
          {
             products.map(data=>{

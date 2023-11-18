@@ -27,89 +27,89 @@ function Lunch2() {
                 </div>
             </div>
         </nav>
-        <center><h1 class="card-heading"><a href="lunchpage">Lunch</a> - Sambar</h1></center>
-        <div class="container idlipage">
+        <center><h1 class="card-heading"><a href="lunchpage">Lunch</a> - Vegitable Rice</h1></center>
+        <div class="container idlipage m-auto">
             <div class="row">
   <div class="col-4">
     <div id="list-example" class="list-group mt-5">
       <a class="list-group-item list-group-item-action" href="#list-item-1">Ingredients</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-2">Before Sambar</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-3">Making Sambar</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">Rice & Veggies</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-3">The Biryani</a>
     </div>
     <div>
         <img 
         class="mt-5 inside-img"
-        src="https://t4.ftcdn.net/jpg/04/84/16/15/360_F_484161575_DqXirPHQBwcG9ry9OKHTpxrydj0f5cLY.jpg"></img>
+        src="https://t4.ftcdn.net/jpg/04/18/22/71/360_F_418227121_mGoGy7ZE2jAkq07OnN599QU7PVuhVT57.jpg"></img>
     </div>
   </div>
   <div class="col-8">
     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scroll" tabindex="0">
         <h4 class="card-heading" id="list-item-1">Ingredients</h4>
                 <ol>
-                    <li>1 cup toor dal (split pigeon peas)</li>
-                    <li>1 cup mixed vegetables (carrots, beans, pumpkin, drumsticks, etc.)</li>
-                    <li>1 small onion, chopped</li>
-                    <li>1 medium-sized tomato, chopped</li>
-                    <li>Tamarind pulp (lemon-sized ball soaked in water)</li>
-                    <li>2 tablespoons sambar powder</li>
+                    <li>1 cup basmati rice</li>
+                    <li>1 cup mixed vegetables (carrots, peas, beans, potatoes, etc.), chopped</li>
+                    <li>1 large onion, thinly sliced</li>
+                    <li>1 large tomato, chopped</li>
+                    <li>1/2 cup plain yogurt</li>
+                    <li>1/4 cup chopped mint leaves</li>
+                    <li>1/4 cup chopped coriander leaves</li>
+                    <li>2 tablespoons biryani masala</li>
+                    <li>1 teaspoon ginger-garlic paste</li>
+                    <li>2-3 green chilies, slit</li>
                     <li>1/2 teaspoon turmeric powder</li>
-                    <li>1 teaspoon mustard seeds</li>
-                    <li>1 teaspoon cumin seeds</li>
-                    <li>A pinch of asafoetida (hing)</li>
-                    <li>2-3 dried red chilies</li>
-                    <li>A few curry leaves</li>
-                    <li>2 tablespoons oil or ghee</li>
+                    <li>1/2 teaspoon red chili powder (adjust to taste)</li>
+                    <li>1/2 teaspoon cumin seeds</li>
+                    <li>4-5 whole cloves</li>
+                    <li>4-5 whole green cardamom pods</li>
+                    <li>1-2 bay leaves</li>
+                    <li>1-inch cinnamon stick</li>
+                    <li>1/4 cup ghee or oil</li>
                     <li>Salt to taste</li>
-                    <li>Fresh coriander leaves for garnish</li>
+                    <li>2 cups water (for cooking rice)</li>
                 </ol>
-           
-                <h4 class="card-heading" id="list-item-2">Before Sambar</h4>
-                <h5>Cooking Toor Dal:</h5>
+                <h4 class="card-heading" id="list-item-2">Rice & Veggies</h4>
+                <h5>Preparing Rice:</h5>
                 <p>
                 <ol>
-                    <li>Rinse toor dal under running water until the water runs clear.</li>
-                    <li>In a pressure cooker, add the rinsed toor dal, chopped onion, chopped tomato, mixed vegetables, turmeric powder, and enough water.</li>
-                    <li>Pressure cook until the dal is soft and the vegetables are cooked. Set aside.</li>
+                    <li>Rinse basmati rice under running water until the water runs clear.</li>
+                    <li>Soak the rice in water for about 30 minutes.</li>
+                    <li>In a large pot, bring 2 cups of water to a boil.</li>
+                    <li>Add soaked and drained rice, a pinch of salt, and cook until the rice is 70-80% cooked.</li>
+                    <li>Drain the rice and set it aside.</li>
                 </ol>
                 </p>
-                <h5>Preparing Tamarind Pulp:</h5>
+                <h5>Cooking Vegitables:</h5>
                 <p>
                 <ol>
-                    <li>Soak a lemon-sized ball of tamarind in warm water for about 15 minutes.</li>
-                    <li>Squeeze the tamarind to extract the pulp, and discard the solids. Set aside.</li>
+                    <li>In a separate pan, heat ghee or oil over medium heat.</li>
+                    <li>Add cumin seeds, whole cloves, green cardamom pods, bay leaves, and cinnamon stick. Sauté until fragrant.</li>
+                    <li>Add sliced onions and sauté until golden brown.</li>
+                    <li>Add ginger-garlic paste and green chilies. Sauté for a minute until the raw smell disappears.</li>
+                    <li>Add chopped tomatoes and cook until they soften.</li>
+                    <li>Add mixed vegetables, turmeric powder, red chili powder, and salt. Cook for a few minutes until the vegetables are slightly tender.</li>
+                    <li>Stir in biryani masala, chopped mint leaves, and chopped coriander leaves.</li>
                 </ol>
                 </p>
-                <h4 class="card-heading" id="list-item-3">Making Sambar</h4>
+                <h4 class="card-heading" id="list-item-3">The Biryani</h4>
+                <h5>Layering biryani:</h5>
                 <p>
+                    <ol>
+                        <li>In a large, heavy-bottomed pan or biryani pot, start layering. Begin with a layer of partially cooked rice.</li>
+                        <li>Follow with a layer of the vegetable mixture.</li>
+                        <li>Drizzle some plain yogurt over the vegetable layer.</li>
+                        <li>Repeat the layers until all the rice and vegetables are used, finishing with a layer of rice on top.</li>
+                        <li>Sprinkle some biryani masala and chopped mint leaves over the top layer.</li>
+                    </ol>
+                    </p>
+                    <h5>Dum Cooking (Slow Cooking):</h5>
                 <p>
-                <ol>
-                    <li>In a large pot or kadai, heat oil or ghee over medium heat.</li>
-                    <li>Add mustard seeds; when they splutter, add cumin seeds, dried red chilies, and asafoetida.</li>
-                    <li>Add curry leaves and chopped onions. Sauté until the onions become translucent.</li>
-                    <li>Add sambar powder and sauté for a minute to release the flavors.</li>
-                    <li>Pour the tamarind pulp into the pot and bring it to a boil.</li>
-                    <li>Add the cooked toor dal and vegetable mixture. Adjust the consistency by adding water if needed.</li>
-                    <li>Add salt to taste and let it simmer for about 10-15 minutes to allow the flavors to meld.</li>
-                    <li>Garnish with fresh coriander leaves.</li>
-                </ol>
-                </p>
-                <h5>Tadka (Tempering):</h5>
-                <p>
-                <ol>
-                    <li>In a small pan, heat a teaspoon of ghee or oil.</li>
-                    <li>Add mustard seeds, cumin seeds, dried red chilies, and curry leaves.</li>
-                    <li>Once the mustard seeds splutter, pour this tempering over the sambar.</li>
-                </ol>
-                </p>
-                <h5>Final Touch:</h5>
-                <p>
-                <ol>
-                    <li>Mix well and let the sambar simmer for a few more minutes.</li>
-                    <li>Check for seasoning and adjust if necessary.</li>
-                    <li>Serve hot sambar with steamed rice, idli, dosa, or vada.</li>
-                </ol>
-                </p>
-                    <center>!!!Enjoy your homemade delicious and nutritious sambar!!!</center>
+                    <ol>
+                        <li>Cover the pot with a tight-fitting lid or seal it with aluminum foil to trap the steam.</li>
+                        <li>Place the pot on a very low flame and let it cook on dum for 20-25 minutes. Alternatively, you can place the pot in a preheated oven at 350°F (180°C) for the same duration.</li>
+                        <li>Allow the biryani to rest for a few minutes before gently fluffing the rice with a fork.</li>
+                    </ol>
+                </p>    
+                <p>                   <center>!!!Enjoy your delicious homemade vegetable biryani!!!</center>
                 </p>
     </div>
 </div>

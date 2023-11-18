@@ -171,6 +171,20 @@
     right: 0;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    background-color: #82bbf1;
+    background-color: #374c5f;
     color: #f8f9fa;
+    padding: 15px;
+    overflow: scroll;
+}
+.cart-img{
+    height:90px;
+    width:120px;
+}
+.cart-head{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cart-cost{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
