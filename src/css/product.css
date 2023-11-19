@@ -27,9 +27,9 @@
 }
 .list .item{
     text-align: center;
-    background-color: #DCE0E1;
+    background-color: #fafbfc;
     padding: 20px;
-    box-shadow: 0 50px 50px #757676;
+  
     letter-spacing: 1px;
     border-radius: 10px;
 }
@@ -151,6 +151,7 @@
 
 .inner:hover {
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -187,4 +188,7 @@
 .cart-cost{
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prod-img{
+    border-radius: 8px;
 }

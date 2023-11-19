@@ -9,8 +9,8 @@ function ShoppingCard(data) {
         console.log(CardItem);
     }
   return (
-    <div className='item'>
-        <img src={image}/>
+    <div className='item shadow'>
+        <img class="prod-img" src={image}/>
         <div className='title'>{name}</div>
         <div className='price'> ₹ {price}</div>
         <button onClick={addItem}>Add To Card</button>

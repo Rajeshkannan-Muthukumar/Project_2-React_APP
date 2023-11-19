@@ -14,6 +14,13 @@ import Lunchpage from './pages/Lunchpage';
 import Lunch1 from './pages/Lunch1';
 import Lunch2 from './pages/Lunch2';
 import Lunch3 from './pages/Lunch3';
+import Dinnerpage from './pages/Dinnerpage';
+import Dinner1 from './pages/Dinner1';
+import Dinner2 from './pages/Dinner2';
+import Dinner3 from './pages/Dinner3';
+import Snackspage from './pages/Snackspage';
+import Aboutus from './pages/Aboutus';
+import Contactus from './pages/Contactus';
 import { ThemeProvider } from './hook/hookcooking';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -32,6 +39,9 @@ const router = createBrowserRouter([
   {
     path:"/lunchpage",
     element:<Lunchpage/>
+  },{
+    path:"/Dinnerpage",
+    element:<Dinnerpage/>
   },
   {
     path:"/homepage",
@@ -59,6 +69,24 @@ const router = createBrowserRouter([
   },{
     path:"lunch3",
     element:<Lunch3/>
+  },{
+    path:"/Dinner1",
+    element:<Dinner1/>
+  },{
+    path:"Dinner2",
+    element:<Dinner2/>
+  },{
+    path:"Dinner3",
+    element:<Dinner3/>
+  },{
+    path:"Aboutus",
+    element:<Aboutus/>
+  },{
+    path:"Contactus",
+    element:<Contactus/>
+  },{
+    path:"Snackspage",
+    element:<Snackspage/>
   }
 ])
 

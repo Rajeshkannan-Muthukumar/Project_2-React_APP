@@ -18,12 +18,12 @@ function Breakfast2() {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav m-auto">
-                    <a class="inner " href="homepage">Home<span class="sr-only">(current)</span></a>
-                    <a class="inner " href="aboutuspage.html">About us<span class="sr-only">(current)</span></a>
+                <a class="inner " href="homepage">Home<span class="sr-only">(current)</span></a>
+                    <a class="inner " href="Aboutus">About us<span class="sr-only">(current)</span></a>
                     <h1 class="inner card-heading cooking-pal-head">COOKING PAL</h1>
-                    <a class="inner " href="contactuspage.html">Contact Us<span class="sr-only">(current)</span></a>
+                    <a class="inner " href="Contactus">Contact Us<span class="sr-only">(current)</span></a>
                     <a class="inner " href="product">Products<span class="sr-only">(current)</span></a>
-                    <a class="inner " href="productspag">Cart<span class="sr-only">(current)</span></a>
+                    <a class="inner " href="product">Cart<span class="sr-only">(current)</span></a>
                 </div>
             </div>
         </nav>

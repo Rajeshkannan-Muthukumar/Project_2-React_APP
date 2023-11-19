@@ -175,6 +175,7 @@
     font-weight: bold;
     border-color: #001a33;
     border-width: 1px;
+    margin-top:10px;
 
 }
 
@@ -189,6 +190,7 @@
     font-weight: bold;
     border-color: #001a33;
     border-width: 1px;
+    margin-top:10px;
 }
 
 
@@ -221,6 +223,20 @@ border-radius: 10px;
     margin: 30px;
     border-radius: 10px;
 }
+.snacks-inside{
+    background-size: cover;
+    height:50vh;
+    width:50vw;
+    border-radius: 15px;
+    align-items: center;
+}
+.snacks-outside{
+    background-size: cover;
+    height:70vh;
+    width:70vw;
+    border-radius: 10px;
+    padding-top:8% ;
+}
 
 
 
@@ -231,11 +247,11 @@ border-radius: 10px;
 
 
 .item-heading {
-    color: white;
-    border-color: white;
+    color: #001a33;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 8vh;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .marginnnn {

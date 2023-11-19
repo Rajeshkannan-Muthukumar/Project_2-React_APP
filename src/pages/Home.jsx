@@ -9,7 +9,7 @@ function Home() {
    
   return (
    <div class="main">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow tabb">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow tabb sticky-top">
             <a class="navbar-brand" href="#">
                 <div class="d-flex flex-row">
                     <img class="logo" src="https://res.cloudinary.com/dm6wjacnw/image/upload/v1697659320/re3hzodscsydhai6jsie.png"/>
@@ -22,13 +22,13 @@ function Home() {
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav m-auto">
+            <div class="navbar-nav m-auto">
                     <a class="inner " href="homepage"><u>Home</u><span class="sr-only">(current)</span></a>
-                    <a class="inner " href="aboutuspage.html">About us<span class="sr-only">(current)</span></a>
+                    <a class="inner " href="Aboutus">About us<span class="sr-only">(current)</span></a>
                     <h1 class="inner card-heading cooking-pal-head">COOKING PAL</h1>
-                    <a class="inner " href="contactuspage.html">Contact Us<span class="sr-only">(current)</span></a>
+                    <a class="inner " href="Contactus">Contact Us<span class="sr-only">(current)</span></a>
                     <a class="inner " href="product">Products<span class="sr-only">(current)</span></a>
-                    <a class="inner " href="productspage.html">Cart<span class="sr-only">(current)</span></a>
+                    <a class="inner " href="product">Cart<span class="sr-only">(current)</span></a>
                 </div>
             </div>
         </nav>

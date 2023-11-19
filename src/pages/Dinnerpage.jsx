@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Breakfast() {
+function Dinnerpage() {
   return (
   
         <div class="main">
@@ -27,7 +27,7 @@ function Breakfast() {
                 </div>
             </div>  
         </nav>
-        <h1 class="card-heading text-center mt-3"><u>Breakfast</u></h1>
+        <h1 class="card-heading text-center mt-3"><u>Dinner</u></h1>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -37,26 +37,26 @@ function Breakfast() {
 
     <div class="carousel-item active">  
     <center>  
-    <h1 class="item-heading">Idli</h1>
-      <img class="d-block snacks-inside" src="https://res.cloudinary.com/dm6wjacnw/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1699075160/ytidcuqlb9nguzokfwle.png" alt="First slide"></img>     
-      <a href="breakfast1"><button class="card-button">Let's Cook</button></a>
+    <h1 class="item-heading">Palak Paneer</h1>
+      <img class="d-block snacks-inside" src="https://bonmasala.com/wp-content/uploads/2022/06/palak-paneer.jpg" alt="First slide"></img>     
+      <a href="dinner1"><button class="card-button">Let's Cook</button></a>
       </center>
     </div>
 
 
     <div class="carousel-item">
  <center>
-     <h1 class="item-heading">Dosa</h1>
-      <img class="d-block snacks-inside" src="https://res.cloudinary.com/dm6wjacnw/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1699075121/rghdafqtgwrl5p33tmyg.png" alt="Second slide"></img>
-      <a href="breakfast2"><button class="card-button">Let's Cook</button></a>
+     <h1 class="item-heading">Butter Chicken</h1>
+      <img class="d-block snacks-inside" src="https://www.shutterstock.com/image-photo/tasty-butter-chicken-curry-dish-600nw-1153329448.jpg" alt="Second slide"></img>
+      <a href="dinner2"><button class="card-button">Let's Cook</button></a>
       </center>
     </div>
  
     <div class="carousel-item">
         <center>
-        <h1 class="item-heading">Poori</h1>
-      <img class="d-block snacks-inside" src="https://res.cloudinary.com/dm6wjacnw/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1699081248/m3colqienewvqarpxqp3.png" alt="Third slide"></img>
-      <a href="breakfast3"><button class="card-button">Let's Cook</button></a>
+        <h1 class="item-heading">Hydrebad Chicken Dum Biryani</h1>
+      <img class="d-block snacks-inside" src="https://media-cdn.tripadvisor.com/media/photo-s/0e/fc/08/30/hyderabadi-chicken-dum.jpg" alt="Third slide"></img>
+      <a href="dinner3"><button class="card-button">Let's Cook</button></a>
      </center>
     </div> 
   </div>
@@ -79,4 +79,4 @@ function Breakfast() {
   )
 }
 
-export default Breakfast
+export default Dinnerpage
