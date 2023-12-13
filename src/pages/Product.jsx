@@ -76,7 +76,7 @@ function Product() {
         </div>
     </div>
     <div class="card">
-        <h1>Card</h1>
+        <h1>Carttt</h1>
         <ul class="listCard">
         </ul>
         <div class="checkOut">

@@ -6,7 +6,7 @@ function BreakfastCard(data) {
 
   return (
 
-              <div class="col-12 col-md-6 col-lg-4 card-row1">
+              <div class="col-12 col-md-6 col-lg-4 card-row1 ">
                         <div class="card1">
                             <img class="card-img" src={img}/>
                             <h1 class="card-heading">{head}</h1>
